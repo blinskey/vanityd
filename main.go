@@ -1,6 +1,6 @@
 /*
 Vanityd serves Go packages via vanity URLs. The default settings defined in
-the "config" varaible may be overwitten by an /etc/vanityd.conf file in
+the "config" variable may be overwritten by an /etc/vanityd.conf file in
 the following format:
 
 	# Lines starting with a pound sign are comments.
@@ -8,7 +8,7 @@ the following format:
 	repoUrl=https://github.com/username
 	port=1234
 
-See "go held importpath" for more information on custom import paths.
+See "go help importpath" for more information on custom import paths.
 */
 package main // import "go.linskey.org/vanityd"
 
