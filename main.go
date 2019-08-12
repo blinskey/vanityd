@@ -54,7 +54,7 @@ func main() {
 func initConfig() error {
 	file, err := os.Open(configFile)
 	if err != nil {
-		return nil
+		return err
 	}
 	defer file.Close()
 
